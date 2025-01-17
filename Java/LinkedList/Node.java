@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * This class represents a single node in a linked list.
  * Each node contains:
