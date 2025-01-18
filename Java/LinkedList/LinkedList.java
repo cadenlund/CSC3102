@@ -118,7 +118,7 @@ public class LinkedList {
         }
 
         // Validate index: valid indices are from 0 to size-1
-        if (index < 0 || index >= size) {
+        if (index <= 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index " + index + " is out of bounds.");
         }
 
